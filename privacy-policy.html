@@ -15,44 +15,117 @@
 </head>
 <body>
   <h1>Privacy Policy</h1>
-  <p class="muted">For the Time Pencil app · Last updated 19 June 2026</p>
+  <p class="muted">For the Time Pencil apps on iPhone, iPad, Apple Watch, Mac, Android and Wear OS · Last updated 31 October 2026</p>
 
   <p>Time Pencil (“the app”, “we”, “us”) is designed to keep your data on your
-  device. This policy explains what the app accesses and why. By using the app
-  you agree to this policy.</p>
+  device. You can use it fully without an account. This policy explains what the
+  app accesses, what leaves your device, who receives it, and why. By using the
+  app you agree to this policy.</p>
 
-  <h2>What the app accesses</h2>
+  <h2>On your device only</h2>
   <ul>
-    <li><strong>Calendar.</strong> With your explicit permission, the app reads
-    and writes events in your device’s calendar so it can show your day on the
-    clock and let you create or edit events. This stays on your device and in
-    your own calendar account — we do not copy it to, or store it on, any server
-    of ours.</li>
-    <li><strong>App settings &amp; clock data</strong> (your colors, notes, and
-    preferences) are stored locally on your device.</li>
+    <li><strong>Calendars and Reminders.</strong> With your permission, the app
+    reads and writes events in the calendars on your device (including iCloud,
+    Google or Outlook accounts you have added there) so it can show your day on
+    the clock and let you create or edit events. Your calendar events are
+    <strong>never uploaded</strong> to us, even if you sign in. Each device reads
+    its own calendars.</li>
+    <li><strong>Your clock</strong>: blocks you draw, notes, Year plans, colours
+    and settings are stored on your device. They leave it only if you sign in to
+    sync (see below).</li>
+    <li><strong>Widgets, Apple Watch, Wear OS and Live Activities</strong> get
+    their data from the app on your own devices.</li>
+    <li><strong>Notifications and alarms</strong> are scheduled on your device.
+    We do not use push notifications.</li>
   </ul>
 
-  <h2>What we do NOT collect</h2>
-  <p>We do not require an account or sign-in. We do not collect your name, email,
-  contacts, photos, or location, and we do not run third-party advertising or
-  analytics trackers.</p>
+  <h2>Optional account and sync</h2>
+  <p>If you choose to sign in (with Apple, with Google, or with a code sent to
+  your email), we store:</p>
+  <ul>
+    <li>your <strong>email address</strong>, the sign-in method you used, and an
+    account ID;</li>
+    <li>the <strong>blocks you draw, notes, Year plans and settings</strong>, so
+    they sync between your devices. Calendar events are not included.</li>
+  </ul>
+  <p>This data is stored with <strong>Supabase</strong>, our database provider
+  (<a href="https://supabase.com/privacy">Supabase privacy policy</a>). Apple or
+  Google confirm your identity when you sign in with them. We do not sell this
+  data or use it for advertising.</p>
+  <p><strong>Deleting your account:</strong> you can delete your account in the
+  app (Settings → Backup → your account → Delete account). This permanently
+  deletes your account and everything synced to it.</p>
+
+  <h2>Live sky and weather</h2>
+  <p>If you turn on Live sky and allow location, the app uses your location on
+  your device to place the sun and sky. To show the current weather, it sends an
+  <strong>approximate location (rounded to about 1 km)</strong> to the weather
+  service of MET Norway (api.met.no). If you also turn on live webcam skies with
+  your own Windy key, the same approximate location is sent to Windy
+  (windy.com) to find a nearby webcam. We do not store your location. You can
+  turn location off in your device settings at any time.</p>
 
   <h2>Purchases</h2>
-  <p>In-app purchases (the optional Pro subscription and lifetime unlock) are
-  processed by Apple and Google. We use <strong>RevenueCat</strong> to verify and
-  manage your purchase. RevenueCat receives a randomly generated, anonymous app
-  user ID and your purchase/receipt details so it can confirm your access — it
-  does not receive your name or payment card details. See
+  <p>Purchases (the optional Pro subscription and lifetime unlock) are processed
+  by Apple and Google. We use <strong>RevenueCat</strong> to verify and manage
+  them. RevenueCat receives your purchase and receipt details together with an
+  anonymous app user ID, or, if you are signed in, your account ID so Pro follows
+  your account to your other devices. RevenueCat does not receive your name or
+  payment card details, and we never receive your payment information. See
   <a href="https://www.revenuecat.com/privacy/">RevenueCat’s privacy policy</a>.
-  We never receive your payment information.</p>
+  If you redeem an invite or gift code, we record that the code was used by your
+  account so it cannot be used again.</p>
+
+  <h2>Advertising measurement (iPhone and iPad)</h2>
+  <p>The iPhone and iPad app includes Meta’s (Facebook’s) SDK for one purpose: to
+  tell Meta when the app is installed and opened, so we can see whether our ads
+  on Instagram and Facebook work. It is set up so that:</p>
+  <ul>
+    <li>the app <strong>never asks for permission to track you</strong> and does
+    not share your device’s advertising identifier;</li>
+    <li>Meta receives only the install or open event with basic technical
+    details (such as device model, iOS version, language, time zone and an
+    app-generated anonymous ID), plus crash reports from Meta’s own code;</li>
+    <li>Meta receives <strong>nothing about your calendar, your plans, your
+    notes or anything you draw</strong>, and nothing about your purchases;</li>
+    <li>installs that come from ads are reported through Apple’s
+    privacy-preserving ad attribution, which does not identify you.</li>
+  </ul>
+  <p>See <a href="https://www.facebook.com/privacy/policy/">Meta’s Privacy
+  Policy</a>. The Android, Mac, Apple Watch and Wear OS apps do not include it.</p>
+
+  <h2>Bug reports and feedback</h2>
+  <p>If you send a bug report from the app, we receive what you write, a
+  screenshot if you choose to attach one, and basic diagnostics: device type and
+  system version, app version, language, screen size, the number (not the
+  content) of your blocks and notes, whether you have Pro, and recent error
+  messages. If you are signed in, the report is linked to your account so we can
+  follow up. Reports are stored with Supabase and used only to fix problems. If
+  you delete your account, reports you sent are kept but no longer linked to
+  you. Feedback forms open in your browser on Google Forms, where
+  Google’s privacy policy applies.</p>
+
+  <h2>Update check</h2>
+  <p>On iPhone and iPad, the app asks Apple’s App Store for the latest version
+  number so it can tell you when an update is available. No personal data is
+  sent.</p>
+
+  <h2>What we do not do</h2>
+  <p>We do not sell your data. We do not use analytics services. We do not
+  collect your contacts or photos. Apart from the Meta install measurement
+  described above, we do not share data with advertisers, and we do not track you
+  across other companies’ apps or websites.</p>
 
   <h2>Children</h2>
   <p>The app is not directed to children under 13 and we do not knowingly collect
   data from them.</p>
 
-  <h2>Your choices</h2>
-  <p>You can revoke calendar access at any time in your device Settings. Deleting
-  the app removes its local data from your device.</p>
+  <h2>Your choices and rights</h2>
+  <p>You can use the app without signing in. You can revoke calendar, reminders
+  and location access at any time in your device settings, sign out, or delete
+  your account in the app. Deleting the app removes its local data from your
+  device. To ask for a copy of your data, a correction, or deletion, email us at
+  the address below.</p>
 
   <h2>Changes</h2>
   <p>We may update this policy; material changes will be reflected by the date
